@@ -17,7 +17,7 @@ if (!suppliedToPubkey) {
 }
 
 // const senderKeypair = getKeypairFromEnvironment("SECRET_KEY");
-const senderKeypair = Keypair.fromSecretKey(new Uint8Array([47, 218, 37, 133, 91, 145, 192, 208, 223, 246, 233, 246, 115, 173, 218, 221, 70, 23, 121, 232, 106, 146, 184, 221, 183, 126, 97, 123, 38, 168, 69, 19, 170, 191, 154, 233, 60, 31, 115, 134, 10, 187, 75, 31, 186, 227, 208, 218, 190, 248, 68, 177, 80, 181, 125, 68, 68, 112, 112, 150, 189, 201, 92, 226])); // Thay thế với khóa riêng của bạn
+const senderKeypair = Keypair.fromSecretKey(new Uint8Array()); // Thay thế với khóa riêng của bạn trong Unit8Array
 
 
 console.log(`suppliedToPubkey: ${suppliedToPubkey}`);
